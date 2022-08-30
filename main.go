@@ -4,8 +4,6 @@ import (
 	"fmt"
 	"net/http"
 	"github.com/julienschmidt/httprouter"
-	_ "reflect"
-	_ "runtime"
 )
 
 func hello(w http.ResponseWriter, r *http.Request, p httprouter.Params) {
